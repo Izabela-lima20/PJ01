@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="alert alert-success">
+  Cadastrado com sucesso 
+</div>
+
+<div class="alert alert-danger">
+Erro
+</div>
+
+<table class="table table-striped table-hover table-borded">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>fat</td>
+      
+    </tr>
+     @for(int i = 0; i <10; i++){
+         <tr>
+        <th scope="row">3</th>
+       <td colspan="2">nome @i</td>
+       <td>
+       <a href = "/Home/Privacy" class="btn btn-warning">
+      editar
+       </a>
+      </td>
+      </tr>
+    }
+  </tbody>
+</table>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
