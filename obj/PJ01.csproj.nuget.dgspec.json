@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aluno\\Documents\\DSiza\\PJ01\\PJ01.csproj": {}
+    "C:\\Users\\Aluno\\PJ01\\PJ01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aluno\\Documents\\DSiza\\PJ01\\PJ01.csproj": {
+    "C:\\Users\\Aluno\\PJ01\\PJ01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aluno\\Documents\\DSiza\\PJ01\\PJ01.csproj",
+        "projectUniqueName": "C:\\Users\\Aluno\\PJ01\\PJ01.csproj",
         "projectName": "PJ01",
-        "projectPath": "C:\\Users\\Aluno\\Documents\\DSiza\\PJ01\\PJ01.csproj",
+        "projectPath": "C:\\Users\\Aluno\\PJ01\\PJ01.csproj",
         "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aluno\\Documents\\DSiza\\PJ01\\obj\\",
+        "outputPath": "C:\\Users\\Aluno\\PJ01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config"
